@@ -1,0 +1,14 @@
+Det gick ut på att man ritade upp en 3 gånger 3 rutor stor spelplan, alltså 9 rutor totalt. Den första spelaren satte sedan ut ett kryss på valfri ruta och den andre spelaren följde upp med en cirkel på en av de nu 8 lediga rutorna. Man turades sedan om tills någon fått 3 i rad eller diagonalt.
+
+   1 | 2 | 3 
+  ---+---+---
+   4 | 5 | 6 
+  ---+---+---
+   7 | 8 | 9
+
+visas ovan är exempel på spelbräde
+3x3 rutor, lägg ett nummer från vänster 1,2,3...9 som motsvara p1,p2,p3...p9 i koden.
+
+P.S.
+Jag har insett att så ska det bli bättre kvalite på koden så att de finns många upprepningar på "if" för att detektera programett vunna och andra delningar som man kan avse de som en svaghet punkt i kodskrivningen. Lösningen som jag tänkt på att lägga "loop" i koden för att undvika upprepningar men hade haft inte mer tid för att lägga & testa de.
+En av mitt problem för att minska upprepa flera "if" med hjälp av att sätta en "loop" hur jag gör med "flag" variabel. Jag definierar en heltal variabel som benämna "flag" med värde antingen 1 eller 2 att framgå av vem som är på tur.
